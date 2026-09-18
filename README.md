@@ -11,11 +11,10 @@ The core of this project is the data model: identifying the entities, working ou
 Entities: Vehicle, Depot, Mechanic, Maintenance_Log, Spare_Part, Log_Part, Inspection
 
 Key relationships:
-
-A vehicle has many maintenance logs
-A mechanic is assigned to many logs, and is stationed at one depot
-A maintenance log uses many spare parts (resolved via the Log_Part junction table)
-A vehicle is scheduled for many inspections
+   - A vehicle has many maintenance logs
+   - A mechanic is assigned to many logs, and is stationed at one depot
+   - A maintenance log uses many spare parts (resolved via the Log_Part junction table)
+   - A vehicle is scheduled for many inspections
 
 ## Entity diagram
 
@@ -33,5 +32,5 @@ Install Visual Studio (with the ".NET desktop development" workload) and SQL Ser
 Run schema.sql in SQL Server Management Studio to create the database
 Open TransportDB_GUI.sln, restore NuGet packages, hit F5
 
-Full setup details are in the sections below if you get stuck.
+
 
