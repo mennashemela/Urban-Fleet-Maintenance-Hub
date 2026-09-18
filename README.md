@@ -15,7 +15,7 @@ Run 6 analytical queries — like finding the vehicle that needed the most repai
 
 How to run it
 Install Visual Studio (with the ".NET desktop development" workload) and SQL Server Express
-Run database/schema.sql in SQL Server Management Studio to create the database
+Run schema.sql in SQL Server Management Studio to create the database
 Open TransportDB_GUI.sln, restore NuGet packages, hit F5
 
 Full setup details are in the sections below if you get stuck.
