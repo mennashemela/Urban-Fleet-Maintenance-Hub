@@ -24,10 +24,7 @@ The application
 
 To prove the model out, I built a C# WinForms app on top of it — add/update/delete vehicles and mechanics, track and close maintenance logs, and run 6 analytical queries.
 
-Built with
-SQL Server (schema design) · C# · WinForms · ADO.NET
-
-How to run it
+Built with SQL Server (T-SQL: schema design, 6 analytical queries) · C# · WinForms · ADO.NETHow to run it
 Install Visual Studio (with the ".NET desktop development" workload) and SQL Server Express
 Run schema.sql in SQL Server Management Studio to create the database
 Open TransportDB_GUI.sln, restore NuGet packages, hit F5
